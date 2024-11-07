@@ -23,7 +23,6 @@ header h1 {
 .me {
   width: 600px;
   height: 600px;
- 
 }
 
 .cont {
@@ -132,20 +131,19 @@ hr {
 .images {
   padding-top: 70px;
   background-color: rgb(17, 17, 17);
-
 }
 
 .vert {
   display: flex;
   justify-content: space-evenly;
-  gap: 30px 5px ;
+  gap: 30px 5px;
   flex-wrap: wrap;
 }
 
-.gor{
+.gor {
   display: flex;
   justify-content: space-evenly;
-  gap: 30px 5px ;
+  gap: 30px 5px;
   flex-wrap: wrap;
 }
 
@@ -158,8 +156,8 @@ hr {
   color: rgb(255, 255, 255);
   padding-bottom: 20px;
 }
-.images img{
-  border:3px solid yellow;
+.images img {
+  border: 3px solid yellow;
 }
 .vert img {
   width: 380px;
@@ -167,11 +165,11 @@ hr {
   border-radius: 10px;
 }
 
-.gor{
+.gor {
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
-  gap:80px;
+  gap: 80px;
 }
 .gor img {
   width: 670px;
@@ -184,7 +182,7 @@ canvas {
   top: 10px;
   left: 670px;
   height: 600px;
- 
+
   border-radius: 50%;
 }
 p {
@@ -205,4 +203,46 @@ span {
 }
 p > a:first-of-type {
   font-size: 20px;
+}
+
+footer {
+  margin-top: 180px;
+  background-color: rgb(17, 17, 17);
+  height: 350px;
+}
+
+footer h1 {
+  padding-bottom: 60px;
+  text-align: center;
+  font-family: Rubik Bubbles;
+  font-size: 49px;
+  font-weight: 1000;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+}
+
+.present {
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  transition: 0.2s linear;
+  background: #fffb00;
+  position: absolute;
+  left: 45%;
+}
+
+.present:hover {
+  box-shadow: 0 0 0 2px white, 0 0 0 4px #3c82f8;
+}
+
+ 
+
+footer a {
+  text-align: center;
+  font-family: Rubik Bubbles;
+  font-size: 49px;
+  font-weight: 1000;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  color: black;
 }
